@@ -1,0 +1,49 @@
+#program #headline {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#program #movies {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1080px;
+}
+
+#program .item {
+    background-color: #00aabb;
+    height: 300px;
+    overflow: hidden;
+    width: 230px;
+    border-radius: 5px;
+    margin: 0 20px 30px;
+    float: left;
+    text-decoration: none;
+}
+
+#program .item .top {
+    background-color: #fff;
+    height: 250px;
+    margin: 15px auto 0;
+    width: 200px;
+}
+
+#program .item .top img {
+    border: solid #000 1px;
+    height: 250px;
+    width: 200px;
+}
+
+#program .item .bottom {
+    height: 35px;
+}
+
+#program .item .bottom p {
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#program .item:hover {
+    opacity: 0.5;
+}

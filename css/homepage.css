@@ -1,0 +1,49 @@
+#homepage #headline {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#homepage #movies {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1080px;
+}
+
+#homepage .item {
+    background-color: #00aabb;
+    height: 300px;
+    overflow: hidden;
+    width: 230px;
+    border-radius: 5px;
+    margin: 0 20px;
+    float: left;
+    text-decoration: none;
+}
+
+#homepage .item .top {
+    background-color: #fff;
+    height: 250px;
+    margin: 15px auto 0;
+    width: 200px;
+}
+
+#homepage .item .top img {
+    border: solid #000 1px;
+    height: 250px;
+    width: 200px;
+}
+
+#homepage .item .bottom {
+    height: 35px;
+}
+
+#homepage .item .bottom p {
+    line-height: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#homepage .item:hover {
+    opacity: 0.5;
+}
